@@ -1,2 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 @import 'tailwindcss';
-@plugin '@tailwindcss/typography';
+
+@theme {
+	/* Define your global custom colors */
+	--color-black-main: #000;
+}
+
+html,
+body {
+	background-color: #000;
+	font-family: Inter; /**"Bebas Neue"*/
+}
+
+
